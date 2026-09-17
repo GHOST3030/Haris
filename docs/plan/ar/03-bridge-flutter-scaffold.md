@@ -4,7 +4,7 @@
 
 ## المهام
 - إنشاء مشروع Flutter وربط module الـKotlin كـ Android plugin/native code.
-- تعريف MethodChannel واحد (`com.haris/security_engine`) بدوال:
+- تعريف MethodChannel واحد (`com.vigentra/security_engine`) بدوال:
   - `quickScan()`
   - `deepScan()`
   - `privacyScan()`

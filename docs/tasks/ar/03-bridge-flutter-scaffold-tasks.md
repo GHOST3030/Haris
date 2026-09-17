@@ -7,7 +7,7 @@
 - [ ] التأكد أن Gradle لمشروع Flutter يبني بنجاح مع الكود الأصلي المدمج.
 
 ## MethodChannel
-- [ ] تعريف قناة باسم `com.haris/security_engine` في الطرف الأصلي (Kotlin) والطرف الآخر (Dart).
+- [ ] تعريف قناة باسم `com.vigentra/security_engine` في الطرف الأصلي (Kotlin) والطرف الآخر (Dart).
 - [ ] تنفيذ `MethodCallHandler` في `MainActivity.kt` يستقبل الاستدعاءات.
 - [ ] تنفيذ دالة `quickScan()` تُشغّل مجموعة فرعية من الفحوصات وتُرجع JSON.
 - [ ] تنفيذ دالة `deepScan()` تُشغّل كل الفحوصات المتاحة في المرحلة 1-2.

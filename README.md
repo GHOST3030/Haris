@@ -1,4 +1,4 @@
-# Haris (حارس) — Android Security & Privacy Scanner
+# Vigentra — Android Security & Privacy Scanner
 
 A Security Scanner + Risk Assessment + Privacy Monitor for Android that aggregates
 multiple system-level signals into an explained risk score.

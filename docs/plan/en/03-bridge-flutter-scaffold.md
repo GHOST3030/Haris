@@ -4,7 +4,7 @@
 
 ## Tasks
 - Create a Flutter project and wire the Kotlin module in as native Android code/plugin.
-- Define one MethodChannel (`com.haris/security_engine`) with methods:
+- Define one MethodChannel (`com.vigentra/security_engine`) with methods:
   - `quickScan()`
   - `deepScan()`
   - `privacyScan()`

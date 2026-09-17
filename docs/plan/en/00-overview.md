@@ -1,7 +1,7 @@
-# Project Haris (حارس) — Overview
+# Project Vigentra — Overview
 
 ## Name
-**Haris** (Arabic for "Guardian") — a tool that watches and assesses, never claims to detect "hacking" with absolute certainty.
+**Vigentra** — a tool that watches and assesses, never claims to detect "hacking" with absolute certainty.
 Alternatives: SentraScan, GuardLens, RiskLens, ShieldSense.
 
 ## Philosophy

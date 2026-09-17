@@ -7,7 +7,7 @@
 - [ ] Confirm the Flutter project's Gradle build succeeds with the merged native code.
 
 ## MethodChannel
-- [ ] Define a channel named `com.haris/security_engine` on both the native (Kotlin) and Dart sides.
+- [ ] Define a channel named `com.vigentra/security_engine` on both the native (Kotlin) and Dart sides.
 - [ ] Implement a `MethodCallHandler` in `MainActivity.kt` to receive calls.
 - [ ] Implement `quickScan()` running a subset of checks and returning JSON.
 - [ ] Implement `deepScan()` running every check available from Phase 1-2.
