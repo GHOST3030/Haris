@@ -1,0 +1,21 @@
+# Android
+*.iml
+.gradle
+/local.properties
+.idea
+captures/
+.externalNativeBuild
+.cxx
+build/
+android/app/build/
+
+# Flutter
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/build/
+flutter_app/.packages
+
+# Misc
+*.log
+.DS_Store
