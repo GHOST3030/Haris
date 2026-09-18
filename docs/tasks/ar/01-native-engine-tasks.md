@@ -7,14 +7,14 @@
 - [ ] إعداد Git repo/branching للمحرك (إن كان منفصلًا) أو مجلد `android/` داخل المستودع الحالي.
 
 ## AppScanner
-- [ ] كتابة دالة لجلب قائمة كل التطبيقات المثبتة عبر `PackageManager.getInstalledPackages()`.
-- [ ] استخراج `packageName`, `versionName`, `versionCode`.
-- [ ] استخراج `installerPackageName` (مصدر التثبيت).
-- [ ] استخراج `targetSdkVersion` و `minSdkVersion`.
-- [ ] استخراج `applicationInfo.flags` لمعرفة `debuggable` و `isSystemApp`.
-- [ ] تجميع كل هذا في `data class AppInfo`.
-- [ ] كتابة دالة تُرجع `List<AppInfo>` كاملة.
-- [ ] اختبار الدالة على جهاز حقيقي وطباعة النتائج في Logcat.
+- [x] كتابة دالة لجلب قائمة كل التطبيقات المثبتة عبر `PackageManager.getInstalledPackages()`.
+- [x] استخراج `packageName`, `versionName`, `versionCode`.
+- [x] استخراج `installerPackageName` (مصدر التثبيت).
+- [x] استخراج `targetSdkVersion` و `minSdkVersion`.
+- [x] استخراج `applicationInfo.flags` لمعرفة `debuggable` و `isSystemApp`.
+- [x] تجميع كل هذا في `data class AppInfo`.
+- [x] كتابة دالة تُرجع `List<AppInfo>` كاملة.
+- [ ] اختبار الدالة على جهاز حقيقي وطباعة النتائج في Logcat. *(تمت إضافة `AppScannerDebug.dumpToLogcat()` جاهزة للاستدعاء — تحتاج تشغيل فعلي على جهاز/محاكي)*
 
 ## PermissionAnalyzer
 - [ ] كتابة دالة لجلب صلاحيات تطبيق معيّن عبر `PackageManager.getPackageInfo(pkg, GET_PERMISSIONS)`.

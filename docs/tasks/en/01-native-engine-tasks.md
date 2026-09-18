@@ -7,14 +7,14 @@
 - [ ] Set up Git repo/branching for the engine (if separate) or the `android/` folder in the current repo.
 
 ## AppScanner
-- [ ] Write a function to enumerate all installed apps via `PackageManager.getInstalledPackages()`.
-- [ ] Extract `packageName`, `versionName`, `versionCode`.
-- [ ] Extract `installerPackageName` (install source).
-- [ ] Extract `targetSdkVersion` and `minSdkVersion`.
-- [ ] Extract `applicationInfo.flags` to determine `debuggable` and `isSystemApp`.
-- [ ] Aggregate all of the above into a `data class AppInfo`.
-- [ ] Write a function returning the full `List<AppInfo>`.
-- [ ] Test the function on a real device and print results to Logcat.
+- [x] Write a function to enumerate all installed apps via `PackageManager.getInstalledPackages()`.
+- [x] Extract `packageName`, `versionName`, `versionCode`.
+- [x] Extract `installerPackageName` (install source).
+- [x] Extract `targetSdkVersion` and `minSdkVersion`.
+- [x] Extract `applicationInfo.flags` to determine `debuggable` and `isSystemApp`.
+- [x] Aggregate all of the above into a `data class AppInfo`.
+- [x] Write a function returning the full `List<AppInfo>`.
+- [ ] Test the function on a real device and print results to Logcat. *(`AppScannerDebug.dumpToLogcat()` added and ready to call — still needs an actual run on a device/emulator.)*
 
 ## PermissionAnalyzer
 - [ ] Write a function to fetch a given app's permissions via `PackageManager.getPackageInfo(pkg, GET_PERMISSIONS)`.
