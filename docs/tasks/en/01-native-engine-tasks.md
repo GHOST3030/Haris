@@ -1,7 +1,7 @@
 # Phase 1 Tasks — Core Engine Setup (Kotlin)
 
 ## Project Setup
-- [ ] Create a new Android project (or a separate Gradle module named `security-engine`).
+- [x] Create a new Android project (or a separate Gradle module named `security-engine`).
 - [ ] Set up package structure: `security.scanner`, `security.apps`, `security.permissions`, `security.integrity`, `security.network`, `security.risk`.
 - [ ] Configure base Gradle settings (minSdk 29, Kotlin version, dependencies).
 - [ ] Set up Git repo/branching for the engine (if separate) or the `android/` folder in the current repo.

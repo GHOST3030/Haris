@@ -15,3 +15,5 @@ docs/plan/     # Full phased project plan (AR + EN)
 
 ## Status
 Phase 1: native scanning engine — in progress.
+- [x] Gradle Android project scaffolded (`android/`, module `vigentra-security-engine`, applicationId `com.vigentra.security`, minSdk 29).
+- [ ] AppScanner, PermissionAnalyzer, AccessibilityMonitor, OverlayDetector, DeviceAdminChecker implementations.

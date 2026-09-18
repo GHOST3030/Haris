@@ -1,7 +1,7 @@
 # مهام المرحلة 1 — إعداد المحرك الأساسي (Kotlin)
 
 ## إعداد المشروع
-- [ ] إنشاء مشروع Android جديد (أو Gradle module منفصل باسم `security-engine`).
+- [x] إنشاء مشروع Android جديد (أو Gradle module منفصل باسم `security-engine`).
 - [ ] إعداد بنية الحزم: `security.scanner`, `security.apps`, `security.permissions`, `security.integrity`, `security.network`, `security.risk`.
 - [ ] إضافة إعدادات Gradle الأساسية (minSdk 29، Kotlin version، dependencies).
 - [ ] إعداد Git repo/branching للمحرك (إن كان منفصلًا) أو مجلد `android/` داخل المستودع الحالي.
